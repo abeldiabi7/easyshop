@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easyshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.log" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+            
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" >
+            <intent-filter>
+                <action android:name="android.intent.action.home" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UchumiActivity"
+            android:label="@string/title_activity_uchumi" >
+            <intent-filter>
+                <action android:name="android.intent.action.uchumi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NakumattActivity"
+            android:label="@string/title_activity_nakumatt" >
+            <intent-filter>
+                <action android:name="android.intent.action.nakumatt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TuskysActivity"
+            android:label="@string/title_activity_tuskys" >
+            <intent-filter>
+                <action android:name="android.intent.action.tuskys" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NaivasActivity"
+            android:label="@string/title_activity_naivas" >
+            <intent-filter>
+                <action android:name="android.intent.action.naivas" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Catalog"
+            android:label="@string/title_activity_catalog" >
+            <intent-filter>
+                <action android:name="android.intent.action.cata" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Productdetails"
+            android:label="@string/title_activity_productdetails" >
+            <intent-filter>
+                <action android:name="android.intent.action.prodetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Shoppingcart"
+            android:label="@string/title_activity_shoppingcart" >
+            <intent-filter>
+                <action android:name="android.intent.action.shoppingcart" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+</manifest>

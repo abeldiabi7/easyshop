@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.easyshop.LoginActivity" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:singleLine="true"
+        android:text="Username (Enter &apos;test&apos;)" />
+
+    <!-- Email input text -->
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip" />
+
+    <!-- Password Label -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:text="Password (Enter &apos;test&apos;)" />
+
+    <!-- Password input text -->
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:password="true"
+        android:singleLine="true" />
+
+    <!-- Login button -->
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:backgroundTint="#FF9800" />
+
+</LinearLayout>
